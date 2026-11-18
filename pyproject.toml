@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tool-cassette"
+version = "0.1.0"
+description = "Record agent tool calls once, replay them offline, and diff for API drift. Stdlib only."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Jakeh Bradley"}]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://a-l.studio"
+
+[project.scripts]
+tool-cassette = "toolcassette.cli:main"
+
+[tool.setuptools]
+packages = ["toolcassette"]

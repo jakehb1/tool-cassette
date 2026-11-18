@@ -1,0 +1,3 @@
+{"args":{"query":"refund policy"},"error":null,"key":"search_docs:ff8a471865adb5ef","ms":250.1,"result":[{"id":"kb-12","title":"Refund policy"},{"id":"kb-40","title":"Plan limits"}],"tool":"search_docs"}
+{"args":{"order_id":"A-1001"},"error":null,"key":"get_order:b8e61dadb17dcfb7","ms":350.2,"result":{"id":"A-1001","state":"delivered","total":49.0},"tool":"get_order"}
+{"args":{"order_id":"A-1001","reason":"damaged"},"error":null,"key":"refund_quote:e4e17c65e0f44827","ms":300.1,"result":{"amount":49.0,"order_id":"A-1001","refundable":true},"tool":"refund_quote"}
